@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1285px) {
+    .logo {
+        margin-left: 80px;
+    }
+
+    .banner-text {
+        margin-left: 80px;
+    }
+
+    .skew-img {
+        left: 313px;
+        top: 236px;
+    }
+
+    .skew-img-1 {
+        left: -55px;
+    }
+}
+
+@media only screen and (max-width: 1212px) {
+    body {}
+
+    .logo {
+        margin-left: 60px;
+    }
+
+    .banner-text {
+        margin-left: 60px;
+    }
+
+    .banner-img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .skew-img {
+        left: 296px;
+        top: 260px;
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+    .navbar-nav a {
+        font-size: 20px;
+
+    }
+
+    .banner-text {
+        margin-left: 0px;
+    }
+
+    .banner-text h1 {
+        font-size: 28px;
+
+    }
+
+    .banner-image img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .skew-img {
+        left: 184px;
+        top: 226px;
+        width: 194px;
+        height: 42px;
+    }
+
+}
+
+@media only screen and (max-width: 996px) {
+    .banner-image {
+        display: none;
+    }
+
+    .skew-img {
+        display: none;
+    }
+
+    .skew-img-1 {
+        display: none;
+    }
+
+    header::after {
+        display: none;
+        background-color: rgb(28, 19, 126);
+    }
+
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:853px) {
+
+    .fa-bars {
+        font-size: 30px;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .banner-text h1 {
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and (max-width:740px) {
+    .banner-text h1 {
+        font-size: 21px;
+    }
+
+    .banner-text-p {
+        font-size: 14px;
+    }
+
+    header {
+        background-color: rgb(28, 19, 126);
+    }
+}
+
+
+@media only screen and (max-width:690px) {
+    .banner-text {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    header {
+        height: 120vh;
+        background-color: rgb(28, 19, 126);
+    }
+}
+
+
+@media only screen and (max-width:645px) {
+    header {
+        height: 120vh;
+        background-color: rgb(28, 19, 126);
+    }
+}
+
+@media only screen and (max-width:568px) {
+    header {
+        background-color: rgb(28, 19, 126);
+    }
+
+    .banner-text {
+        margin: 0;
+    }
+}

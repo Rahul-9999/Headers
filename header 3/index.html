@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>header3</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="mediascreens.css">
+</head>
+
+<body>
+  <header>
+    <section>
+      <div class="top-nav">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-2 col-md-2  col-sm-8 col-xs-8">
+              <div class="logo">
+                <img src="images/logo.png">
+              </div>
+            </div>
+
+            <div class="col-lg-offset-2 col-lg-8  col-md-offset-2 col-md-8  col-sm-4  col-xs-4 ">
+              <nav class="navbar">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" onclick="f1()">
+                      <script>
+                        function f1() {
+                          var x = document.getElementById("Navbar");
+                          if (x.style.display === 'none') {
+                            x.style.display = 'block';
+                          } else {
+                            x.style.display = 'none';
+                          }
+                        }
+                      </script>
+                      <i class="fa fa-bars"></i>
+                    </button>
+                  </div>
+
+                  <div class=" navbar-collapse" id="Navbar">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Solutions</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section>
+      <div class="banner">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="banner-text">
+                <h1>Aenean sollicitudin elementum</h1>
+                <h1>Donec varius varius sodales</h1>
+                <div class="banner-text-p">
+                  <p>Aenean sollicitudin elementum erat,ut pulvinar</p>
+                  <p>nunc suscipit vel.Donec varius varius soldales.</p>
+                </div>
+                <button class="btn"><i class="fa fa-play-circle-o"></i><span>Watch video </span></button>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="banner-image">
+                <img src="images/main.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="clip">
+
+    </div>
+
+    <div class="skew-img">
+
+    </div>
+
+    <div class="skew-img-1">
+
+    </div>
+
+    <div class="icons">
+      <i class="fa fa-facebook-official"></i>
+      <i class="fa fa-linkedin-square"></i>
+      <i class="fa fa-twitter-square"></i>
+
+    </div>
+  </header>
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

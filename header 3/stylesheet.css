@@ -1,0 +1,161 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .navigation {
+     display: flex;
+     justify-content: space-around;
+     border: 2px solid black;
+ }
+
+ .logo {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 100px;
+ }
+
+ .logo img {
+     height: 130px;
+     width: 220px;
+ }
+
+ .nav a {
+     margin-right: 0px;
+     text-decoration: none;
+     color: rgb(253, 253, 252);
+     font-size: 25px;
+     font-weight: bold;
+ }
+
+ .navbar {
+     margin-top: 40px;
+     padding-left: 60px;
+ }
+
+ .banner {
+     position: relative;
+     color: white;
+     overflow: hidden;
+ }
+
+ header {
+     height: 100vh;
+     position: relative;
+ }
+
+ header:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: rgb(28, 19, 126);
+     clip-path: polygon(100% 0, 100% 18%, 60% 67%, 0 79%, 0 0);
+ }
+
+ header:after {
+     content: "";
+     position: absolute;
+     top: 134px;
+     right: 0;
+     bottom: 67px;
+     width: 100%;
+     background-color: rgb(96, 91, 165);
+     clip-path: polygon(100% 0, 100% 11%, 61% 76%, 0 88%, 0 79%, 60% 67%);
+
+ }
+
+ .banner-text {
+     margin-top: 50px;
+     margin-left: 120px;
+ }
+
+ .banner-text-p {
+     margin: 0;
+     padding: 0;
+     margin-top: 30px;
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .banner-text-p p {
+     margin: 0;
+     padding: 0;
+ }
+
+ .btn {
+     margin-top: 40px;
+     padding: 10px 25px;
+     border-radius: 52px;
+     border-style: none;
+     font-weight: bold;
+     background-color: rgb(244, 5, 11);
+     color: white;
+ }
+
+ span {
+     margin-left: 10px;
+ }
+
+ .fa-play-circle-o {
+     font-size: 18px;
+     margin-top: 5px;
+ }
+
+ .banner-image img {
+     position: relative;
+     height: 500px;
+     width: 600px;
+     z-index: 1;
+ }
+
+ body {
+     position: relative;
+ }
+
+ .fa-bars {
+     font-size: 36px;
+     color: white;
+     background-color: none;
+ }
+
+ .skew-img {
+     position: absolute;
+     background-color: rgb(255, 255, 255, 0.2);
+     height: 56px;
+     width: 243px;
+     top: 235px;
+     left: 351px;
+     transform: skew(-30deg, 179deg);
+ }
+
+ .skew-img-1 {
+     position: absolute;
+     width: 262px;
+     height: 72px;
+     top: 56px;
+     left: -34px;
+     background-color: rgba(255, 255, 255, 0.1);
+     transform: skewX(-34deg);
+ }
+ .icons{
+    position: absolute;
+    right: 0;
+    bottom: 115px;
+    justify-content: space-around;
+    width: 10%;
+    height: 175px;
+    float: right;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 35px;
+    color: rgb(28, 19, 126);
+ }
+
+ header{
+     background-color:rgb(212, 214,227);
+ }
